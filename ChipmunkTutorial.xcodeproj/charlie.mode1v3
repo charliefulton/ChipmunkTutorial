@@ -274,7 +274,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>96</real>
+								<real>272</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -288,20 +288,19 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
+									<integer>7</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {96, 849}}</string>
+							<string>{{0, 0}, {272, 849}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -313,11 +312,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {113, 867}}</string>
+						<string>{{0, 0}, {289, 867}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>96</real>
+							<real>272</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>4 146 979 908 0 0 1920 1058 </string>
@@ -325,7 +324,7 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>113pt</string>
+					<string>289pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -350,7 +349,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CB88BD5611B7F5C600AF4385</string>
+										<string>CB88BD5B11B817E700AF4385</string>
 										<key>history</key>
 										<array>
 											<string>CB7D358011B37B4A00F52E2E</string>
@@ -401,7 +400,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {861, 862}}</string>
+								<string>{{0, 0}, {685, 862}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 146 979 908 0 0 1920 1058 </string>
 							</dict>
@@ -421,7 +420,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 867}, {861, 0}}</string>
+								<string>{{0, 867}, {685, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 146 979 908 0 0 1920 1058 </string>
 							</dict>
@@ -432,7 +431,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>861pt</string>
+					<string>685pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -570,7 +569,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>297268678.03459901</real>
+	<real>297277415.82488</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
