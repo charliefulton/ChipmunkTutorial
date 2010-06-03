@@ -57,8 +57,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ChipmunkTutorial_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkTutorial_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ChipmunkTutorial-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChipmunkTutorial-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		CB7D356C11B3797E00F52E2E /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
-		CB7D356D11B3797E00F52E2E /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		CB7D356C11B3797E00F52E2E /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = floor.png; path = Resources/floor.png; sourceTree = SOURCE_ROOT; };
+		CB7D356D11B3797E00F52E2E /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = Resources/ball.png; sourceTree = SOURCE_ROOT; };
 		CB7D35D411B37D6200F52E2E /* cpConstraint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpConstraint.c; sourceTree = "<group>"; };
 		CB7D35D511B37D6200F52E2E /* cpDampedRotarySpring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpDampedRotarySpring.c; sourceTree = "<group>"; };
 		CB7D35D611B37D6200F52E2E /* cpDampedSpring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpDampedSpring.c; sourceTree = "<group>"; };
@@ -130,13 +130,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CB7D360511B37D6B00F52E2E /* chipmunk */,
 				1D3623240D0F684500981E51 /* ChipmunkTutorialAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ChipmunkTutorialAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
@@ -161,7 +162,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CB7D360511B37D6B00F52E2E /* chipmunk */,
 				32CA4F630368D1EE00C91783 /* ChipmunkTutorial_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -254,7 +254,7 @@
 				CB7D35E911B37D6200F52E2E /* CMakeLists.txt */,
 				CB7D35D311B37D6200F52E2E /* constraints */,
 			);
-			name = chipmunk;
+			path = chipmunk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

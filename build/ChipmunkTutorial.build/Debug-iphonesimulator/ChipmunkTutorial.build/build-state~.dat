@@ -1,0 +1,956 @@
+TChipmunkTutorial
+v7
+r0
+t297280131.284775
+cCheck dependencies
+cProcessInfoPlistFile /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/Info.plist ChipmunkTutorial-Info.plist
+cCompileXIB /Users/charlie/Projects/ChipmunkTutorial/MainWindow.xib
+cCompileXIB /Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorialViewController.xib
+cCpResource build/Debug-iphonesimulator/ChipmunkTutorial.app/floor.png floor.png
+cCpResource build/Debug-iphonesimulator/ChipmunkTutorial.app/ball.png ball.png
+cCpResource build/Debug-iphonesimulator/ChipmunkTutorial.app/CMakeLists.txt CMakeLists.txt
+cProcessPCH /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch.gch ChipmunkTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch.gch ChipmunkTutorial_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/main.o /Users/charlie/Projects/ChipmunkTutorial/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialAppDelegate.o /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialViewController.o /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpConstraint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedRotarySpring.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedSpring.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGearJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGrooveJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPinJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPivotJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRatchetJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRotaryLimitJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSimpleMotor.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSlideJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPolyShape.o /Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/chipmunk.o /Users/charlie/Projects/ChipmunkTutorial/chipmunk.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpace.o /Users/charlie/Projects/ChipmunkTutorial/cpSpace.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpaceHash.o /Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpShape.o /Users/charlie/Projects/ChipmunkTutorial/cpShape.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpHashSet.o /Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpCollision.o /Users/charlie/Projects/ChipmunkTutorial/cpCollision.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArray.o /Users/charlie/Projects/ChipmunkTutorial/cpArray.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArbiter.o /Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBody.o /Users/charlie/Projects/ChipmunkTutorial/cpBody.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBB.o /Users/charlie/Projects/ChipmunkTutorial/cpBB.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpVect.o /Users/charlie/Projects/ChipmunkTutorial/cpVect.c normal i386 c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BC52F150000000000000110
+t1271213845
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Users/charlie/Projects/ChipmunkTutorial/CMakeLists.txt
+c000000004B561B1100000000000004C9
+t1263934225
+s1225
+
+N/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorialViewController.xib
+c000000004C03412B0000000000003F05
+t1275281707
+s16133
+
+N/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorial_Prefix.pch
+c000000004C03412B00000000000000C9
+t1275281707
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.h
+c000000004C03412B0000000000000217
+t1275281707
+s535
+i<UIKit/UIKit.h>
+
+N/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m
+c000000004C03412B00000000000002D1
+t1275281707
+s721
+i"ChipmunkTutorialAppDelegate.h"
+i"ChipmunkTutorialViewController.h"
+
+N/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h
+c000000004C06469A00000000000002DC
+t1275479706
+s732
+i<UIKit/UIKit.h>
+i"chipmunk.h"
+
+N/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m
+c000000004C07BE4000000000000015FE
+t1275575872
+s5630
+i"ChipmunkTutorialViewController.h"
+i"chipmunk.h"
+
+N/Users/charlie/Projects/ChipmunkTutorial/MainWindow.xib
+c000000004C03412B0000000000004D63
+t1275281707
+s19811
+
+N/Users/charlie/Projects/ChipmunkTutorial/ball.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorial.LinkFileList
+c000000004C07EB010000000000000F36
+t1275587329
+s3894
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialAppDelegate.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialViewController.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/chipmunk.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArbiter.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArray.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBB.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBody.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpCollision.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpConstraint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedRotarySpring.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedSpring.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGearJoint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGrooveJoint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpHashSet.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPinJoint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPivotJoint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPolyShape.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRatchetJoint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRotaryLimitJoint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpShape.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSimpleMotor.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSlideJoint.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpace.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpaceHash.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpVect.o
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/main.o
+t1275587331
+s5948
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app.dSYM
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/CMakeLists.txt
+t1275587330
+s1225
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/ChipmunkTutorial
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/ChipmunkTutorialViewController.nib
+t1275587330
+s769
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/Info.plist
+t1275587330
+s840
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/MainWindow.nib
+t1275587330
+s1135
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/PkgInfo
+t1275587330
+s8
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/ball.png
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/floor.png
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/chipmunk.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/chipmunk.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpArray.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpBB.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpBody.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpCollision.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpShape.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpSpace.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/cpVect.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/floor.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/charlie/Projects/ChipmunkTutorial/main.m
+c000000004C03412B0000000000000174
+t1275281707
+s372
+i<UIKit/UIKit.h>
+
+N/var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch.gch
+t1275587330
+s2138480
+
+N/var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch.gch
+t1275587331
+s13805456
+
+NChipmunkTutorial-Info.plist
+c000000004C03412B00000000000004D6
+t1275281707
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297280129#297280130#0(0"0(0#1#0"31243859860914272#0"0#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialAppDelegate.o /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297280131.067392
+e297280131.150706
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialAppDelegate.o
+x/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m:10:
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:10:21: error: chipmunk.h: No such file or directory
+oIn file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m:10:
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:17: error: expected specifier-qualifier-list before 'cpSpace'
+lSLF07#2@86"Compile /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m297280131#297280131#0(488"In file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m:10:/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:10:21: error: chipmunk.h: No such file or directoryIn file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m:10:/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:17: error: expected specifier-qualifier-list before 'cpSpace'2(4@37"Chipmunk.h: No such file or directory297280131#105#134#2(7@100"In file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m297280131#18446744073709551615#0#0(6@78"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m296974507#10#0#10#0#0"0(13@122"Chipmunk.h: No such file or directory in /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297280131#18446744073709551615#0#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#10#0#10#0#0"0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#10#0#10#0#28"*: No such file or directory0(4@50"Expected specifier-qualifier-list before 'cpSpace'297280131#344#144#2(7@100"In file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m297280131#18446744073709551615#0#0(6@78"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m296974507#10#0#10#0#0"0(13@135"Expected specifier-qualifier-list before 'cpSpace' in /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297280131#18446744073709551615#0#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#17#0#17#0#0"0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#17#0#17#0#19"expected * before *0(0#0#78"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m4300911832#2113"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialAppDelegate.m -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialAppDelegate.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialViewController.o /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297280131.150787
+e297280131.226993
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialViewController.o
+x/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:11:
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:10:21: error: chipmunk.h: No such file or directory
+oIn file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:11:
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:17: error: expected specifier-qualifier-list before 'cpSpace'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m: In function '-[ChipmunkTutorialViewController setupChipmunk]':
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:61: warning: implicit declaration of function 'cpInitChipmunk'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: error: 'space' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: error: (Each undeclared identifier is reported only once
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: error: for each function it appears in.)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: warning: implicit declaration of function 'cpSpaceNew'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:71: warning: implicit declaration of function 'cpv'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:84: error: 'cpBody' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:84: error: 'ballBody' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:84: warning: implicit declaration of function 'cpBodyNew'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:90: warning: implicit declaration of function 'cpSpaceAddBody'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: error: 'cpShape' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: error: 'ballShape' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: warning: implicit declaration of function 'cpCircleShapeNew'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: error: 'cpvzero' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:102: warning: implicit declaration of function 'cpSpaceAddShape'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:111: error: 'floorBody' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:114: error: 'cpVect' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:114: error: expected ';' before 'verts1'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:115: error: expected ';' before 'verts2'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:116: error: expected ';' before 'verts3'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:117: error: expected ';' before 'verts4'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:118: error: expected ';' before 'verts5'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m: In function '-[ChipmunkTutorialViewController tick:]':
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:145: warning: implicit declaration of function 'cpSpaceStep'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:145: error: 'space' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:150: warning: implicit declaration of function 'cpSpaceHashEach'
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m: In function 'updateShape':
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:160: error: 'cpShape' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:160: error: 'shape' undeclared (first use in this function)
+o/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:160: error: expected expression before ')' token
+lSLF07#2@89"Compile /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297280131#297280131#0(4768"In file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:11:/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:10:21: error: chipmunk.h: No such file or directoryIn file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:11:/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h:17: error: expected specifier-qualifier-list before 'cpSpace'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m: In function '-[ChipmunkTutorialViewController setupChipmunk]':/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:61: warning: implicit declaration of function 'cpInitChipmunk'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: error: 'space' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: error: (Each undeclared identifier is reported only once/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: error: for each function it appears in.)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:67: warning: implicit declaration of function 'cpSpaceNew'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:71: warning: implicit declaration of function 'cpv'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:84: error: 'cpBody' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:84: error: 'ballBody' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:84: warning: implicit declaration of function 'cpBodyNew'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:90: warning: implicit declaration of function 'cpSpaceAddBody'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: error: 'cpShape' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: error: 'ballShape' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: warning: implicit declaration of function 'cpCircleShapeNew'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:94: error: 'cpvzero' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:102: warning: implicit declaration of function 'cpSpaceAddShape'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:111: error: 'floorBody' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:114: error: 'cpVect' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:114: error: expected ';' before 'verts1'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:115: error: expected ';' before 'verts2'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:116: error: expected ';' before 'verts3'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:117: error: expected ';' before 'verts4'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:118: error: expected ';' before 'verts5'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m: In function '-[ChipmunkTutorialViewController tick:]':/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:145: warning: implicit declaration of function 'cpSpaceStep'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:145: error: 'space' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:150: warning: implicit declaration of function 'cpSpaceHashEach'/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m: In function 'updateShape':/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:160: error: 'cpShape' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:160: error: 'shape' undeclared (first use in this function)/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m:160: error: expected expression before ')' token28(4@37"Chipmunk.h: No such file or directory297280131#108#134#2(7@103"In file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297280131#18446744073709551615#0#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#11#0#11#0#0"0(13@122"Chipmunk.h: No such file or directory in /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297280131#18446744073709551615#0#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#10#0#10#0#0"0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#10#0#10#0#28"*: No such file or directory0(4@50"Expected specifier-qualifier-list before 'cpSpace'297280131#350#144#2(7@103"In file included from /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297280131#18446744073709551615#0#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#11#0#11#0#0"0(13@135"Expected specifier-qualifier-list before 'cpSpace' in /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297280131#18446744073709551615#0#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#17#0#17#0#0"0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.h297172506#17#0#17#0#19"expected * before *0(22@49"Implicit declaration of function 'cpInitChipmunk'297280131#640#145#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#61#0#61#0#36"implicit declaration of function '*'0(4@47"'space' undeclared (first use in this function)297280131#785#141#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#67#0#67#0#43"'*' undeclared (first use in this function)0(22@45"Implicit declaration of function 'cpSpaceNew'297280131#1196#141#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#67#0#67#0#36"implicit declaration of function '*'0(22@38"Implicit declaration of function 'cpv'297280131#1337#134#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#71#0#71#0#36"implicit declaration of function '*'0(4@48"'cpBody' undeclared (first use in this function)297280131#1471#142#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#84#0#84#0#43"'*' undeclared (first use in this function)0(4@50"'ballBody' undeclared (first use in this function)297280131#1613#144#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#84#0#84#0#43"'*' undeclared (first use in this function)0(22@44"Implicit declaration of function 'cpBodyNew'297280131#1757#140#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#84#0#84#0#36"implicit declaration of function '*'0(22@49"Implicit declaration of function 'cpSpaceAddBody'297280131#1897#145#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#90#0#90#0#36"implicit declaration of function '*'0(4@49"'cpShape' undeclared (first use in this function)297280131#2042#143#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#94#0#94#0#43"'*' undeclared (first use in this function)0(4@51"'ballShape' undeclared (first use in this function)297280131#2185#145#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#94#0#94#0#43"'*' undeclared (first use in this function)0(22@51"Implicit declaration of function 'cpCircleShapeNew'297280131#2330#147#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#94#0#94#0#36"implicit declaration of function '*'0(4@49"'cpvzero' undeclared (first use in this function)297280131#2477#143#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#94#0#94#0#43"'*' undeclared (first use in this function)0(22@50"Implicit declaration of function 'cpSpaceAddShape'297280131#2620#147#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#102#0#102#0#36"implicit declaration of function '*'0(4@51"'floorBody' undeclared (first use in this function)297280131#2767#146#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#111#0#111#0#43"'*' undeclared (first use in this function)0(4@48"'cpVect' undeclared (first use in this function)297280131#2913#143#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#114#0#114#0#43"'*' undeclared (first use in this function)0(4@28"Expected ';' before 'verts1'297280131#3056#123#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#114#0#114#0#19"expected * before *0(4@28"Expected ';' before 'verts2'297280131#3179#123#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#115#0#115#0#19"expected * before *0(4@28"Expected ';' before 'verts3'297280131#3302#123#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#116#0#116#0#19"expected * before *0(4@28"Expected ';' before 'verts4'297280131#3425#123#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#117#0#117#0#19"expected * before *0(4@28"Expected ';' before 'verts5'297280131#3548#123#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#118#0#118#0#19"expected * before *0(22@46"Implicit declaration of function 'cpSpaceStep'297280131#3809#143#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#145#0#145#0#36"implicit declaration of function '*'0(4@47"'space' undeclared (first use in this function)297280131#3952#142#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#145#0#145#0#43"'*' undeclared (first use in this function)0(22@50"Implicit declaration of function 'cpSpaceHashEach'297280131#4094#147#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#150#0#150#0#36"implicit declaration of function '*'0(4@49"'cpShape' undeclared (first use in this function)297280131#4351#144#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#160#0#160#0#43"'*' undeclared (first use in this function)0(4@47"'shape' undeclared (first use in this function)297280131#4495#142#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#160#0#160#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token297280131#4637#131#0(6@81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m297268672#160#0#160#0#19"expected * before *0(0#0#81"/Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m4300911832#2119"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/Classes/ChipmunkTutorialViewController.m -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/ChipmunkTutorialViewController.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/chipmunk.o /Users/charlie/Projects/ChipmunkTutorial/chipmunk.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.240547
+e297280131.249769
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/chipmunk.o
+x/Users/charlie/Projects/ChipmunkTutorial/chipmunk.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/chipmunk.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@59"Compile /Users/charlie/Projects/ChipmunkTutorial/chipmunk.c297280131#297280131#0(343"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/chipmunk.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#51"/Users/charlie/Projects/ChipmunkTutorial/chipmunk.c4300911832#2057"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/chipmunk.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/chipmunk.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArbiter.o /Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.273701
+e297280131.279938
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArbiter.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@60"Compile /Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c297280131#297280131#0(344"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#52"/Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c4300911832#2059"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpArbiter.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArbiter.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArray.o /Users/charlie/Projects/ChipmunkTutorial/cpArray.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.270046
+e297280131.274659
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArray.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpArray.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpArray.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@58"Compile /Users/charlie/Projects/ChipmunkTutorial/cpArray.c297280131#297280131#0(342"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpArray.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#50"/Users/charlie/Projects/ChipmunkTutorial/cpArray.c4300911832#2055"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpArray.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpArray.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBB.o /Users/charlie/Projects/ChipmunkTutorial/cpBB.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.279054
+e297280131.283618
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBB.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpBB.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpBB.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@55"Compile /Users/charlie/Projects/ChipmunkTutorial/cpBB.c297280131#297280131#0(339"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpBB.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#47"/Users/charlie/Projects/ChipmunkTutorial/cpBB.c4300911832#2049"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpBB.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBB.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBody.o /Users/charlie/Projects/ChipmunkTutorial/cpBody.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.274719
+e297280131.278984
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBody.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpBody.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpBody.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@57"Compile /Users/charlie/Projects/ChipmunkTutorial/cpBody.c297280131#297280131#0(341"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpBody.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#49"/Users/charlie/Projects/ChipmunkTutorial/cpBody.c4300911832#2053"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpBody.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpBody.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpCollision.o /Users/charlie/Projects/ChipmunkTutorial/cpCollision.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.269124
+e297280131.273632
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpCollision.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpCollision.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpCollision.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@62"Compile /Users/charlie/Projects/ChipmunkTutorial/cpCollision.c297280131#297280131#0(346"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpCollision.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#54"/Users/charlie/Projects/ChipmunkTutorial/cpCollision.c4300911832#2063"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpCollision.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpCollision.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpConstraint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.154779
+e297280131.159339
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpConstraint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@75"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c297280131#297280131#0(359"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#67"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c4300911832#2077"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpConstraint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpConstraint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedRotarySpring.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.159415
+e297280131.166293
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedRotarySpring.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@83"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c297280131#297280131#0(367"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#75"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c4300911832#2093"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedRotarySpring.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedRotarySpring.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedSpring.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.166368
+e297280131.171584
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedSpring.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@77"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c297280131#297280131#0(361"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#69"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c4300911832#2081"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpDampedSpring.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpDampedSpring.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGearJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.171658
+e297280131.176104
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGearJoint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@74"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c297280131#297280131#0(358"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#66"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c4300911832#2075"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGearJoint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGearJoint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGrooveJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.176177
+e297280131.181114
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGrooveJoint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@76"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c297280131#297280131#0(360"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#68"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c4300911832#2079"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpGrooveJoint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpGrooveJoint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpHashSet.o /Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.264403
+e297280131.269986
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpHashSet.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@60"Compile /Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c297280131#297280131#0(344"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#52"/Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c4300911832#2059"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpHashSet.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpHashSet.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPinJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.181191
+e297280131.187705
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPinJoint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@73"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c297280131#297280131#0(357"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#65"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c4300911832#2073"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPinJoint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPinJoint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPivotJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.187775
+e297280131.194560
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPivotJoint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@75"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c297280131#297280131#0(359"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#67"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c4300911832#2077"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpPivotJoint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPivotJoint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPolyShape.o /Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.232988
+e297280131.247303
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPolyShape.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@62"Compile /Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c297280131#297280131#0(346"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#54"/Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c4300911832#2063"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpPolyShape.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpPolyShape.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRatchetJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.194635
+e297280131.203283
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRatchetJoint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@77"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c297280131#297280131#0(361"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#69"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c4300911832#2081"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRatchetJoint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRatchetJoint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRotaryLimitJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.203359
+e297280131.209249
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRotaryLimitJoint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@81"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c297280131#297280131#0(365"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#73"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c4300911832#2089"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpRotaryLimitJoint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpRotaryLimitJoint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpShape.o /Users/charlie/Projects/ChipmunkTutorial/cpShape.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.263282
+e297280131.269055
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpShape.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpShape.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpShape.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@58"Compile /Users/charlie/Projects/ChipmunkTutorial/cpShape.c297280131#297280131#0(342"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpShape.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#50"/Users/charlie/Projects/ChipmunkTutorial/cpShape.c4300911832#2055"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpShape.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpShape.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSimpleMotor.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.209320
+e297280131.232894
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSimpleMotor.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@76"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c297280131#297280131#0(360"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#68"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c4300911832#2079"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSimpleMotor.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSimpleMotor.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSlideJoint.o /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.227090
+e297280131.240468
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSlideJoint.o
+x/Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@75"Compile /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c297280131#297280131#0(359"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#67"/Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c4300911832#2077"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/constraints/cpSlideJoint.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSlideJoint.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpace.o /Users/charlie/Projects/ChipmunkTutorial/cpSpace.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.247367
+e297280131.264341
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpace.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpSpace.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpSpace.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@58"Compile /Users/charlie/Projects/ChipmunkTutorial/cpSpace.c297280131#297280131#0(342"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpSpace.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#50"/Users/charlie/Projects/ChipmunkTutorial/cpSpace.c4300911832#2055"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpSpace.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpace.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpaceHash.o /Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.249836
+e297280131.263207
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpaceHash.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@62"Compile /Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c297280131#297280131#0(346"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#54"/Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c4300911832#2063"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpSpaceHash.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpSpaceHash.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpVect.o /Users/charlie/Projects/ChipmunkTutorial/cpVect.c normal i386 c com.apple.compilers.gcc.4_2
+s297280131.279997
+e297280131.284719
+r0
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpVect.o
+x/Users/charlie/Projects/ChipmunkTutorial/cpVect.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpVect.c: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@57"Compile /Users/charlie/Projects/ChipmunkTutorial/cpVect.c297280131#297280131#0(341"i686-apple-darwin10-gcc-4.2.1: /Users/charlie/Projects/ChipmunkTutorial/cpVect.c: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1297280131#18446744073709551615#0#0(1@0"0(0#0#49"/Users/charlie/Projects/ChipmunkTutorial/cpVect.c4300911832#2053"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/cpVect.c -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/cpVect.o1#
+
+CCompileC build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/main.o /Users/charlie/Projects/ChipmunkTutorial/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297280131.066580
+e297280131.154694
+r1
+xCompileC
+xbuild/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/main.o
+x/Users/charlie/Projects/ChipmunkTutorial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/charlie/Projects/ChipmunkTutorial/main.m297280131#297280131#0(0"0(0#0#47"/Users/charlie/Projects/ChipmunkTutorial/main.m4300911832#2059"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -include /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch -c /Users/charlie/Projects/ChipmunkTutorial/main.m -o /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorialViewController.xib
+s297280130.044588
+e297280130.359618
+r1
+xCompileXIB
+x/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorialViewController.xib
+lSLF07#2@45"CompileXIB ChipmunkTutorialViewController.xib297280130#297280130#0(0"0(0#0#75"/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorialViewController.xib4300911832#535"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/ChipmunkTutorialViewController.nib /Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorialViewController.xib0#
+
+CCompileXIB /Users/charlie/Projects/ChipmunkTutorial/MainWindow.xib
+s297280130.043953
+e297280130.363948
+r1
+xCompileXIB
+x/Users/charlie/Projects/ChipmunkTutorial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib297280130#297280130#0(0"0(0#0#55"/Users/charlie/Projects/ChipmunkTutorial/MainWindow.xib4300911832#495"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/MainWindow.nib /Users/charlie/Projects/ChipmunkTutorial/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/ChipmunkTutorial.app/CMakeLists.txt CMakeLists.txt
+s297280130.363108
+e297280130.402921
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChipmunkTutorial.app/CMakeLists.txt
+xCMakeLists.txt
+lSLF07#2@19"Copy CMakeLists.txt297280130#297280130#0(0"0(0#0#55"/Users/charlie/Projects/ChipmunkTutorial/CMakeLists.txt4300911832#473"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charlie/Projects/ChipmunkTutorial/CMakeLists.txt /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app0#
+
+CCpResource build/Debug-iphonesimulator/ChipmunkTutorial.app/ball.png ball.png
+s297280130.361453
+e297280130.402199
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/ChipmunkTutorial.app/ball.png
+xball.png
+opbxcp: ball.png: No such file or directory
+lSLF07#2@13"Copy ball.png297280130#297280130#0(43"pbxcp: ball.png: No such file or directory1(4@42"pbxcp: ball.png: No such file or directory297280130#18446744073709551615#0#0(6@0"297280130#0#0#0#0#0"0(0#0#49"/Users/charlie/Projects/ChipmunkTutorial/ball.png4300911832#467"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charlie/Projects/ChipmunkTutorial/ball.png /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app1#
+
+CCpResource build/Debug-iphonesimulator/ChipmunkTutorial.app/floor.png floor.png
+s297280130.359689
+e297280130.401979
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/ChipmunkTutorial.app/floor.png
+xfloor.png
+opbxcp: floor.png: No such file or directory
+lSLF07#2@14"Copy floor.png297280130#297280130#0(44"pbxcp: floor.png: No such file or directory1(4@43"pbxcp: floor.png: No such file or directory297280130#18446744073709551615#0#0(6@0"297280130#0#0#0#0#0"0(0#0#50"/Users/charlie/Projects/ChipmunkTutorial/floor.png4300911832#468"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charlie/Projects/ChipmunkTutorial/floor.png /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app1#
+
+CGenerateDSYMFile /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app.dSYM /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/ChipmunkTutorial
+r0
+
+CLd /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/ChipmunkTutorial normal i386
+r0
+
+CProcessInfoPlistFile /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/Info.plist ChipmunkTutorial-Info.plist
+s297280130.017809
+e297280130.043863
+r1
+xProcessInfoPlistFile
+x/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/Info.plist
+xChipmunkTutorial-Info.plist
+lSLF07#2@35"Process ChipmunkTutorial-Info.plist297280130#297280130#0(0"0(0#0#68"/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorial-Info.plist29555362188165236#512"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChipmunkTutorial-Info.plist -genpkginfo /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app/Info.plist0#
+
+CProcessPCH /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch.gch ChipmunkTutorial_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s297280130.403986
+e297280130.586004
+r1
+xProcessPCH
+x/var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch.gch
+xChipmunkTutorial_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile ChipmunkTutorial_Prefix.pch297280130#297280130#0(0"0(0#0#68"/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorial_Prefix.pch4300911832#1930"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -c /Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorial_Prefix.pch -o /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-bnwqpqxbyijkngalptwbnbmkwjcz/ChipmunkTutorial_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch.gch ChipmunkTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s297280130.403126
+e297280131.066501
+r1
+xProcessPCH
+x/var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch.gch
+xChipmunkTutorial_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile ChipmunkTutorial_Prefix.pch297280130#297280131#0(0"0(0#0#68"/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorial_Prefix.pch7512900776271111168#1940"    cd /Users/charlie/Projects/ChipmunkTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-generated-files.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-own-target-headers.hmap -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-all-target-headers.hmap -iquote /Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/ChipmunkTutorial-project-headers.hmap -F/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator -I/Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/include -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources/i386 -I/Users/charlie/Projects/ChipmunkTutorial/build/ChipmunkTutorial.build/Debug-iphonesimulator/ChipmunkTutorial.build/DerivedSources -c /Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorial_Prefix.pch -o /var/folders/yj/yjrLTIjIFfqOne4hVAPmM++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ChipmunkTutorial_Prefix-fxipjayvtymcalaeuxagjmspsxcu/ChipmunkTutorial_Prefix.pch.gch0#
+
+CTouch /Users/charlie/Projects/ChipmunkTutorial/build/Debug-iphonesimulator/ChipmunkTutorial.app
+r0
+
