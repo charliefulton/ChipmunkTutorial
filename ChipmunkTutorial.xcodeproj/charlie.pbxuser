@@ -1,10 +1,17 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* ChipmunkTutorialAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 764}}";
+			sepNavSelRange = "{306, 0}";
+			sepNavVisRange = "{0, 536}";
+		};
+	};
 	1D3623250D0F684500981E51 /* ChipmunkTutorialAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 468}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 249}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 764}}";
+			sepNavSelRange = "{462, 0}";
+			sepNavVisRange = "{0, 725}";
 			sepNavWindowFrame = "{{15, 151}, {988, 902}}";
 		};
 	};
@@ -16,23 +23,24 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {877, 879}}";
-			sepNavSelRange = "{551, 0}";
-			sepNavVisRange = "{0, 732}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 764}}";
+			sepNavSelRange = "{738, 0}";
+			sepNavVisRange = "{0, 746}";
 			sepNavWindowFrame = "{{84, 88}, {988, 902}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {624, 2743}}";
-			sepNavSelRange = "{3551, 0}";
-			sepNavVisRange = "{2008, 1870}";
-			sepNavWindowFrame = "{{27, 68}, {988, 902}}";
+			sepNavIntBoundsRect = "{{0, 0}, {439, 4654}}";
+			sepNavSelRange = "{6200, 0}";
+			sepNavVisRange = "{4759, 160}";
+			sepNavWindowFrame = "{{50, 116}, {988, 893}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = CB7D352511B378AC00F52E2E /* ChipmunkTutorial */;
+		activeSDKPreference = iphonesimulator3.1.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ChipmunkTutorial */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ChipmunkTutorial */,
@@ -47,7 +55,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					446,
+					736,
 					20,
 					48,
 					43,
@@ -92,6 +100,86 @@
 			CB59DB7411B604F70086EFF1 = CB59DB7411B604F70086EFF1 /* PBXBookmark */;
 			CB59DB7511B604F70086EFF1 = CB59DB7511B604F70086EFF1 /* PlistBookmark */;
 			CB70C71111B8231500BDD3D8 /* PBXTextBookmark */ = CB70C71111B8231500BDD3D8 /* PBXTextBookmark */;
+			CB70C74411B8AED300BDD3D8 /* PBXTextBookmark */ = CB70C74411B8AED300BDD3D8 /* PBXTextBookmark */;
+			CB70C74511B8AED300BDD3D8 /* PBXTextBookmark */ = CB70C74511B8AED300BDD3D8 /* PBXTextBookmark */;
+			CB70C74611B8AED300BDD3D8 /* PBXTextBookmark */ = CB70C74611B8AED300BDD3D8 /* PBXTextBookmark */;
+			CB70C74711B8AED300BDD3D8 /* PBXTextBookmark */ = CB70C74711B8AED300BDD3D8 /* PBXTextBookmark */;
+			CB70C74811B8AED300BDD3D8 /* PBXTextBookmark */ = CB70C74811B8AED300BDD3D8 /* PBXTextBookmark */;
+			CB70C75411B8AFBA00BDD3D8 /* PBXTextBookmark */ = CB70C75411B8AFBA00BDD3D8 /* PBXTextBookmark */;
+			CB70C75511B8AFBA00BDD3D8 /* PBXTextBookmark */ = CB70C75511B8AFBA00BDD3D8 /* PBXTextBookmark */;
+			CB70C75611B8AFBA00BDD3D8 /* PBXTextBookmark */ = CB70C75611B8AFBA00BDD3D8 /* PBXTextBookmark */;
+			CB70C75D11B8B32C00BDD3D8 /* PBXTextBookmark */ = CB70C75D11B8B32C00BDD3D8 /* PBXTextBookmark */;
+			CB70C75E11B8B32C00BDD3D8 /* PBXTextBookmark */ = CB70C75E11B8B32C00BDD3D8 /* PBXTextBookmark */;
+			CB70C75F11B8B32C00BDD3D8 /* PBXTextBookmark */ = CB70C75F11B8B32C00BDD3D8 /* PBXTextBookmark */;
+			CB70C76011B8B32C00BDD3D8 /* PBXTextBookmark */ = CB70C76011B8B32C00BDD3D8 /* PBXTextBookmark */;
+			CB70C76111B8B32C00BDD3D8 /* PBXTextBookmark */ = CB70C76111B8B32C00BDD3D8 /* PBXTextBookmark */;
+			CB70C76211B8B32C00BDD3D8 /* PBXTextBookmark */ = CB70C76211B8B32C00BDD3D8 /* PBXTextBookmark */;
+			CB70C76511B8B37B00BDD3D8 /* PBXTextBookmark */ = CB70C76511B8B37B00BDD3D8 /* PBXTextBookmark */;
+			CB70C76611B8B38500BDD3D8 /* PBXTextBookmark */ = CB70C76611B8B38500BDD3D8 /* PBXTextBookmark */;
+			CB70C76911B8B42500BDD3D8 /* PBXTextBookmark */ = CB70C76911B8B42500BDD3D8 /* PBXTextBookmark */;
+			CB70C76A11B8B4BF00BDD3D8 /* PBXTextBookmark */ = CB70C76A11B8B4BF00BDD3D8 /* PBXTextBookmark */;
+			CB70C76B11B8B4BF00BDD3D8 /* PBXTextBookmark */ = CB70C76B11B8B4BF00BDD3D8 /* PBXTextBookmark */;
+			CB70C76C11B8B4BF00BDD3D8 /* PBXTextBookmark */ = CB70C76C11B8B4BF00BDD3D8 /* PBXTextBookmark */;
+			CB70C77311B8B4E100BDD3D8 /* PBXTextBookmark */ = CB70C77311B8B4E100BDD3D8 /* PBXTextBookmark */;
+			CB70C77411B8B51D00BDD3D8 /* PBXTextBookmark */ = CB70C77411B8B51D00BDD3D8 /* PBXTextBookmark */;
+			CB70C78511B8C46A00BDD3D8 /* PBXTextBookmark */ = CB70C78511B8C46A00BDD3D8 /* PBXTextBookmark */;
+			CB70C7B611B8C72E00BDD3D8 /* XCBuildMessageTextBookmark */ = CB70C7B611B8C72E00BDD3D8 /* XCBuildMessageTextBookmark */;
+			CB70C7B711B8C72E00BDD3D8 /* PBXTextBookmark */ = CB70C7B711B8C72E00BDD3D8 /* PBXTextBookmark */;
+			CB70C7C411B8D3CE00BDD3D8 /* XCBuildMessageTextBookmark */ = CB70C7C411B8D3CE00BDD3D8 /* XCBuildMessageTextBookmark */;
+			CB70C7C511B8D3F700BDD3D8 /* PBXTextBookmark */ = CB70C7C511B8D3F700BDD3D8 /* PBXTextBookmark */;
+			CB70C7C611B8D3F700BDD3D8 /* PBXTextBookmark */ = CB70C7C611B8D3F700BDD3D8 /* PBXTextBookmark */;
+			CB70C7C711B8D3F700BDD3D8 /* PBXTextBookmark */ = CB70C7C711B8D3F700BDD3D8 /* PBXTextBookmark */;
+			CB70C7C811B8D3F700BDD3D8 /* XCBuildMessageTextBookmark */ = CB70C7C811B8D3F700BDD3D8 /* XCBuildMessageTextBookmark */;
+			CB70C7C911B8D3F700BDD3D8 /* PBXTextBookmark */ = CB70C7C911B8D3F700BDD3D8 /* PBXTextBookmark */;
+			CB70C7CC11B8D3F700BDD3D8 /* PBXTextBookmark */ = CB70C7CC11B8D3F700BDD3D8 /* PBXTextBookmark */;
+			CB70C7CF11B8D42900BDD3D8 /* XCBuildMessageTextBookmark */ = CB70C7CF11B8D42900BDD3D8 /* XCBuildMessageTextBookmark */;
+			CB70C7D211B8D43B00BDD3D8 /* PBXTextBookmark */ = CB70C7D211B8D43B00BDD3D8 /* PBXTextBookmark */;
+			CB70C7D311B8D43B00BDD3D8 /* PBXTextBookmark */ = CB70C7D311B8D43B00BDD3D8 /* PBXTextBookmark */;
+			CB70C7D811B8D5B100BDD3D8 /* PBXTextBookmark */ = CB70C7D811B8D5B100BDD3D8 /* PBXTextBookmark */;
+			CB70C7D911B8D5B100BDD3D8 /* PBXTextBookmark */ = CB70C7D911B8D5B100BDD3D8 /* PBXTextBookmark */;
+			CB70C7E011B8D7CD00BDD3D8 /* XCBuildMessageTextBookmark */ = CB70C7E011B8D7CD00BDD3D8 /* XCBuildMessageTextBookmark */;
+			CB70C7E511B8D7F900BDD3D8 /* PBXBookmark */ = CB70C7E511B8D7F900BDD3D8 /* PBXBookmark */;
+			CB70C7E611B8D7F900BDD3D8 /* PBXTextBookmark */ = CB70C7E611B8D7F900BDD3D8 /* PBXTextBookmark */;
+			CB70C7E711B8D7F900BDD3D8 /* PBXTextBookmark */ = CB70C7E711B8D7F900BDD3D8 /* PBXTextBookmark */;
+			CB70C7E811B8D7F900BDD3D8 /* PBXTextBookmark */ = CB70C7E811B8D7F900BDD3D8 /* PBXTextBookmark */;
+			CB70C7EB11B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7EB11B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C7EC11B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7EC11B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C7EF11B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7EF11B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C7F011B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7F011B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C7F311B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7F311B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C7F411B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7F411B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C7F711B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7F711B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C7F811B8D8E700BDD3D8 /* PBXTextBookmark */ = CB70C7F811B8D8E700BDD3D8 /* PBXTextBookmark */;
+			CB70C82011B8DB4B00BDD3D8 /* PBXTextBookmark */ = CB70C82011B8DB4B00BDD3D8 /* PBXTextBookmark */;
+			CB70C82111B8DB4B00BDD3D8 /* PBXTextBookmark */ = CB70C82111B8DB4B00BDD3D8 /* PBXTextBookmark */;
+			CB70C82211B8DB4B00BDD3D8 /* PBXTextBookmark */ = CB70C82211B8DB4B00BDD3D8 /* PBXTextBookmark */;
+			CB70C82311B8DB4B00BDD3D8 /* PBXTextBookmark */ = CB70C82311B8DB4B00BDD3D8 /* PBXTextBookmark */;
+			CB70C82411B8DB4B00BDD3D8 /* PBXTextBookmark */ = CB70C82411B8DB4B00BDD3D8 /* PBXTextBookmark */;
+			CB70C82511B8DB5A00BDD3D8 /* XCBuildMessageTextBookmark */ = CB70C82511B8DB5A00BDD3D8 /* XCBuildMessageTextBookmark */;
+			CB70C82611B8DB5A00BDD3D8 /* PBXTextBookmark */ = CB70C82611B8DB5A00BDD3D8 /* PBXTextBookmark */;
+			CB70C82711BA0E7700BDD3D8 /* PBXTextBookmark */ = CB70C82711BA0E7700BDD3D8 /* PBXTextBookmark */;
+			CB70C82811BA0E7900BDD3D8 /* PBXTextBookmark */ = CB70C82811BA0E7900BDD3D8 /* PBXTextBookmark */;
+			CB70C82911BA0E9500BDD3D8 /* PBXTextBookmark */ = CB70C82911BA0E9500BDD3D8 /* PBXTextBookmark */;
+			CB70C83211BA0F8300BDD3D8 /* PlistBookmark */ = CB70C83211BA0F8300BDD3D8 /* PlistBookmark */;
+			CB70C83311BA0F8300BDD3D8 /* PBXTextBookmark */ = CB70C83311BA0F8300BDD3D8 /* PBXTextBookmark */;
+			CB70C83411BA0F8300BDD3D8 /* PBXTextBookmark */ = CB70C83411BA0F8300BDD3D8 /* PBXTextBookmark */;
+			CB70C83511BA0F8300BDD3D8 /* PBXTextBookmark */ = CB70C83511BA0F8300BDD3D8 /* PBXTextBookmark */;
+			CB70C83611BA0F8300BDD3D8 /* PBXTextBookmark */ = CB70C83611BA0F8300BDD3D8 /* PBXTextBookmark */;
+			CB70C83B11BA0FEA00BDD3D8 /* PBXTextBookmark */ = CB70C83B11BA0FEA00BDD3D8 /* PBXTextBookmark */;
+			CB70C83E11BA101800BDD3D8 /* PBXTextBookmark */ = CB70C83E11BA101800BDD3D8 /* PBXTextBookmark */;
+			CB70C84111BA105000BDD3D8 /* PBXTextBookmark */ = CB70C84111BA105000BDD3D8 /* PBXTextBookmark */;
+			CB70C84211BA105000BDD3D8 /* PBXTextBookmark */ = CB70C84211BA105000BDD3D8 /* PBXTextBookmark */;
+			CB70C84311BA105000BDD3D8 /* PBXTextBookmark */ = CB70C84311BA105000BDD3D8 /* PBXTextBookmark */;
+			CB70C84611BA106C00BDD3D8 /* PBXTextBookmark */ = CB70C84611BA106C00BDD3D8 /* PBXTextBookmark */;
+			CB70C84911BA108200BDD3D8 /* PBXTextBookmark */ = CB70C84911BA108200BDD3D8 /* PBXTextBookmark */;
+			CB70C84C11BA113B00BDD3D8 /* PBXTextBookmark */ = CB70C84C11BA113B00BDD3D8 /* PBXTextBookmark */;
+			CB70C84F11BA115D00BDD3D8 /* PBXTextBookmark */ = CB70C84F11BA115D00BDD3D8 /* PBXTextBookmark */;
+			CB70C85211BA117C00BDD3D8 /* PBXTextBookmark */ = CB70C85211BA117C00BDD3D8 /* PBXTextBookmark */;
+			CB70C85511BA119800BDD3D8 /* PBXTextBookmark */ = CB70C85511BA119800BDD3D8 /* PBXTextBookmark */;
+			CB70C85811BA11A700BDD3D8 /* PBXTextBookmark */ = CB70C85811BA11A700BDD3D8 /* PBXTextBookmark */;
+			CB70C86C11BA131500BDD3D8 /* PBXTextBookmark */ = CB70C86C11BA131500BDD3D8 /* PBXTextBookmark */;
+			CB70C86D11BA131600BDD3D8 /* PBXTextBookmark */ = CB70C86D11BA131600BDD3D8 /* PBXTextBookmark */;
+			CB70C86E11BA131800BDD3D8 /* PBXTextBookmark */ = CB70C86E11BA131800BDD3D8 /* PBXTextBookmark */;
 			CB7D358011B37B4A00F52E2E = CB7D358011B37B4A00F52E2E /* PBXTextBookmark */;
 			CB7D363B11B37F9C00F52E2E = CB7D363B11B37F9C00F52E2E /* PBXTextBookmark */;
 			CB7D363D11B37F9C00F52E2E = CB7D363D11B37F9C00F52E2E /* PBXTextBookmark */;
@@ -350,10 +438,791 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
 		name = "ChipmunkTutorialViewController.m: 121";
 		rLen = 0;
-		rLoc = 3551;
+		rLoc = 7343;
 		rType = 0;
 		vrLen = 1870;
 		vrLoc = 2008;
+	};
+	CB70C74411B8AED300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ChipmunkTutorialAppDelegate.h */;
+		name = "ChipmunkTutorialAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 0;
+	};
+	CB70C74511B8AED300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ChipmunkTutorialAppDelegate.m */;
+		name = "ChipmunkTutorialAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 0;
+	};
+	CB70C74611B8AED300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */;
+		name = "ChipmunkTutorialViewController.h: 23";
+		rLen = 0;
+		rLoc = 618;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	CB70C74711B8AED300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 121";
+		rLen = 0;
+		rLoc = 7343;
+		rType = 0;
+		vrLen = 1870;
+		vrLoc = 2008;
+	};
+	CB70C74811B8AED300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 137";
+		rLen = 0;
+		rLoc = 6175;
+		rType = 0;
+		vrLen = 2209;
+		vrLoc = 2728;
+	};
+	CB70C75411B8AFBA00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */;
+		name = "ChipmunkTutorialViewController.h: 14";
+		rLen = 45;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	CB70C75511B8AFBA00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 148";
+		rLen = 0;
+		rLoc = 7343;
+		rType = 0;
+		vrLen = 1572;
+		vrLoc = 3644;
+	};
+	CB70C75611B8AFBA00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 138";
+		rLen = 0;
+		rLoc = 5532;
+		rType = 0;
+		vrLen = 2002;
+		vrLoc = 2959;
+	};
+	CB70C75D11B8B32C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D35DF11B37D6200F52E2E /* cpPolyShape.c */;
+		name = "cpPolyShape.c: 206";
+		rLen = 73;
+		rLoc = 5346;
+		rType = 0;
+		vrLen = 1646;
+		vrLoc = 4531;
+	};
+	CB70C75E11B8B32C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ChipmunkTutorialAppDelegate.h */;
+		name = "ChipmunkTutorialAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	CB70C75F11B8B32C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ChipmunkTutorialAppDelegate.m */;
+		name = "ChipmunkTutorialAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 641;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	CB70C76011B8B32C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */;
+		name = "ChipmunkTutorialViewController.h: 14";
+		rLen = 45;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	CB70C76111B8B32C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 173";
+		rLen = 0;
+		rLoc = 7038;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 4736;
+	};
+	CB70C76211B8B32C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 90";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 2255;
+		vrLoc = 1589;
+	};
+	CB70C76511B8B37B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 221";
+		rLen = 0;
+		rLoc = 8315;
+		rType = 0;
+		vrLen = 1492;
+		vrLoc = 5912;
+	};
+	CB70C76611B8B38500BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 224";
+		rLen = 0;
+		rLoc = 8364;
+		rType = 0;
+		vrLen = 1492;
+		vrLoc = 5912;
+	};
+	CB70C76911B8B42500BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 90";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 1589;
+	};
+	CB70C76A11B8B4BF00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */;
+		name = "ChipmunkTutorialViewController.h: 14";
+		rLen = 45;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	CB70C76B11B8B4BF00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 90";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 1599;
+		vrLoc = 1098;
+	};
+	CB70C76C11B8B4BF00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 47";
+		rLen = 0;
+		rLoc = 1584;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 678;
+	};
+	CB70C77311B8B4E100BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 43";
+		rLen = 0;
+		rLoc = 1434;
+		rType = 0;
+		vrLen = 1388;
+		vrLoc = 653;
+	};
+	CB70C77411B8B51D00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 47";
+		rLen = 0;
+		rLoc = 1584;
+		rType = 0;
+		vrLen = 1532;
+		vrLoc = 794;
+	};
+	CB70C78511B8C46A00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 210";
+		rLen = 0;
+		rLoc = 8080;
+		rType = 0;
+		vrLen = 2209;
+		vrLoc = 1444;
+	};
+	CB70C7B611B8C72E00BDD3D8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Property 'width' requires the method 'setWidth:' to be defined - use @synthesize, @dynamic or provide a method implementation";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 347;
+		rType = 1;
+	};
+	CB70C7B711B8C72E00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 284";
+		rLen = 0;
+		rLoc = 9555;
+		rType = 0;
+		vrLen = 81;
+		vrLoc = 7761;
+	};
+	CB70C7C411B8D3CE00BDD3D8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'verts' undeclared (first use in this function)";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 180;
+		rType = 1;
+	};
+	CB70C7C511B8D3F700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ChipmunkTutorialAppDelegate.h */;
+		name = "ChipmunkTutorialAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	CB70C7C611B8D3F700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ChipmunkTutorialAppDelegate.m */;
+		name = "ChipmunkTutorialAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 725;
+		vrLoc = 0;
+	};
+	CB70C7C711B8D3F700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */;
+		name = "ChipmunkTutorialViewController.h: 33";
+		rLen = 0;
+		rLoc = 738;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	CB70C7C811B8D3F700BDD3D8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Too many arguments to function 'cpPolyShapeNew'";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 233;
+		rType = 1;
+	};
+	CB70C7C911B8D3F700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 155";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 2067;
+		vrLoc = 3312;
+	};
+	CB70C7CC11B8D3F700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 138";
+		rLen = 0;
+		rLoc = 5364;
+		rType = 0;
+		vrLen = 2171;
+		vrLoc = 3018;
+	};
+	CB70C7CF11B8D42900BDD3D8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incompatible type for argument 4 of 'cpPolyShapeNew'";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 233;
+		rType = 1;
+	};
+	CB70C7D211B8D43B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 157";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 1952;
+		vrLoc = 3312;
+	};
+	CB70C7D311B8D43B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 157";
+		rLen = 14;
+		rLoc = 6223;
+		rType = 0;
+		vrLen = 2081;
+		vrLoc = 3020;
+	};
+	CB70C7D811B8D5B100BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 144";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 2043;
+		vrLoc = 3233;
+	};
+	CB70C7D911B8D5B100BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 100";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 2256;
+		vrLoc = 1763;
+	};
+	CB70C7E011B8D7CD00BDD3D8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'num' undeclared (first use in this function)";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 233;
+		rType = 1;
+	};
+	CB70C7E511B8D7F900BDD3D8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CB7D356C11B3797E00F52E2E /* floor.png */;
+	};
+	CB70C7E611B8D7F900BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 144";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 2043;
+		vrLoc = 3233;
+	};
+	CB70C7E711B8D7F900BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 141";
+		rLen = 0;
+		rLoc = 5392;
+		rType = 0;
+		vrLen = 1214;
+		vrLoc = 4112;
+	};
+	CB70C7E811B8D7F900BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 214";
+		rLen = 0;
+		rLoc = 7343;
+		rType = 0;
+		vrLen = 1991;
+		vrLoc = 4733;
+	};
+	CB70C7EB11B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 140";
+		rLen = 0;
+		rLoc = 5392;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 4127;
+	};
+	CB70C7EC11B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 264";
+		rLen = 0;
+		rLoc = 8741;
+		rType = 0;
+		vrLen = 1440;
+		vrLoc = 6712;
+	};
+	CB70C7EF11B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D360B11B37DD300F52E2E /* chipmunk_types.h */;
+		rLen = 1;
+		rLoc = 42;
+		rType = 1;
+	};
+	CB70C7F011B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D360B11B37DD300F52E2E /* chipmunk_types.h */;
+		name = "chipmunk_types.h: 43";
+		rLen = 25;
+		rLoc = 927;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 161;
+	};
+	CB70C7F311B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D361111B37DD300F52E2E /* cpBody.h */;
+		rLen = 1;
+		rLoc = 28;
+		rType = 1;
+	};
+	CB70C7F411B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D361111B37DD300F52E2E /* cpBody.h */;
+		name = "cpBody.h: 51";
+		rLen = 6;
+		rLoc = 2155;
+		rType = 0;
+		vrLen = 1950;
+		vrLoc = 1478;
+	};
+	CB70C7F711B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D361511B37DD300F52E2E /* cpShape.h */;
+		rLen = 1;
+		rLoc = 61;
+		rType = 1;
+	};
+	CB70C7F811B8D8E700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D361511B37DD300F52E2E /* cpShape.h */;
+		name = "cpShape.h: 62";
+		rLen = 6;
+		rLoc = 2315;
+		rType = 0;
+		vrLen = 1622;
+		vrLoc = 1255;
+	};
+	CB70C82011B8DB4B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 181";
+		rLen = 0;
+		rLoc = 5392;
+		rType = 0;
+		vrLen = 1703;
+		vrLoc = 3845;
+	};
+	CB70C82111B8DB4B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 307";
+		rLen = 0;
+		rLoc = 8896;
+		rType = 0;
+		vrLen = 1289;
+		vrLoc = 8148;
+	};
+	CB70C82211B8DB4B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D360B11B37DD300F52E2E /* chipmunk_types.h */;
+		name = "chipmunk_types.h: 43";
+		rLen = 25;
+		rLoc = 927;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 161;
+	};
+	CB70C82311B8DB4B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D361111B37DD300F52E2E /* cpBody.h */;
+		name = "cpBody.h: 51";
+		rLen = 6;
+		rLoc = 2155;
+		rType = 0;
+		vrLen = 1950;
+		vrLoc = 1478;
+	};
+	CB70C82411B8DB4B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D361511B37DD300F52E2E /* cpShape.h */;
+		name = "cpShape.h: 62";
+		rLen = 6;
+		rLoc = 2315;
+		rType = 0;
+		vrLen = 1622;
+		vrLoc = 1255;
+	};
+	CB70C82511B8DB5A00BDD3D8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'num' undeclared (first use in this function)";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 233;
+		rType = 1;
+	};
+	CB70C82611B8DB5A00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 231";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 4683;
+	};
+	CB70C82711BA0E7700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 231";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 4683;
+	};
+	CB70C82811BA0E7900BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 231";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 4683;
+	};
+	CB70C82911BA0E9500BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 181";
+		rLen = 0;
+		rLoc = 5392;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 3845;
+	};
+	CB70C83211BA0F8300BDD3D8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ChipmunkTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/charlie/Projects/ChipmunkTutorial/ChipmunkTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CB70C83311BA0F8300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ChipmunkTutorialAppDelegate.h */;
+		name = "ChipmunkTutorialAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	CB70C83411BA0F8300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */;
+		name = "ChipmunkTutorialViewController.h: 33";
+		rLen = 0;
+		rLoc = 738;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	CB70C83511BA0F8300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 161";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 2025;
+		vrLoc = 1745;
+	};
+	CB70C83611BA0F8300BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 61";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 698;
+	};
+	CB70C83B11BA0FEA00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 87";
+		rLen = 0;
+		rLoc = 2042;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 1682;
+	};
+	CB70C83E11BA101800BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 87";
+		rLen = 0;
+		rLoc = 2042;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 1708;
+	};
+	CB70C84111BA105000BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB7D365F11B3808900F52E2E /* CGGeometry.h */;
+		name = "CGGeometry.h: 258";
+		rLen = 34;
+		rLoc = 8279;
+		rType = 0;
+		vrLen = 1739;
+		vrLoc = 7353;
+	};
+	CB70C84211BA105000BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 61";
+		rLen = 11;
+		rLoc = 1570;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 717;
+	};
+	CB70C84311BA105000BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 61";
+		rLen = 0;
+		rLoc = 1585;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 721;
+	};
+	CB70C84611BA106C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 234";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 4757;
+	};
+	CB70C84911BA108200BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 56";
+		rLen = 0;
+		rLoc = 1354;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 497;
+	};
+	CB70C84C11BA113B00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 103";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 1999;
+		vrLoc = 1845;
+	};
+	CB70C84F11BA115D00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 103";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 2031;
+		vrLoc = 1915;
+	};
+	CB70C85211BA117C00BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 103";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 1934;
+		vrLoc = 1821;
+	};
+	CB70C85511BA119800BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 103";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 2075;
+		vrLoc = 1847;
+	};
+	CB70C85811BA11A700BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 103";
+		rLen = 0;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 1710;
+	};
+	CB70C86C11BA131500BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 234";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 4759;
+	};
+	CB70C86D11BA131600BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 234";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 4759;
+	};
+	CB70C86E11BA131800BDD3D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
+		name = "ChipmunkTutorialViewController.m: 234";
+		rLen = 0;
+		rLoc = 6200;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 4759;
 	};
 	CB7D352511B378AC00F52E2E /* ChipmunkTutorial */ = {
 		isa = PBXExecutable;
@@ -379,6 +1248,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = ChipmunkTutorial;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -423,9 +1294,9 @@
 	};
 	CB7D35DF11B37D6200F52E2E /* cpPolyShape.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1049, 2964}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1970}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 3146}}";
+			sepNavSelRange = "{5346, 73}";
+			sepNavVisRange = "{4531, 1646}";
 		};
 	};
 	CB7D35E011B37D6200F52E2E /* chipmunk.c */ = {
@@ -514,9 +1385,10 @@
 	};
 	CB7D360B11B37DD300F52E2E /* chipmunk_types.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {877, 1053}}";
-			sepNavSelRange = "{1044, 0}";
-			sepNavVisRange = "{161, 1396}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1027}}";
+			sepNavSelRange = "{927, 25}";
+			sepNavVisRange = "{161, 1294}";
+			sepNavWindowFrame = "{{15, 151}, {988, 902}}";
 		};
 	};
 	CB7D360C11B37DD300F52E2E /* chipmunk_unsafe.h */ = {
@@ -557,8 +1429,8 @@
 	CB7D361111B37DD300F52E2E /* cpBody.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {929, 2132}}";
-			sepNavSelRange = "{2547, 21}";
-			sepNavVisRange = "{1441, 1987}";
+			sepNavSelRange = "{2155, 6}";
+			sepNavVisRange = "{1478, 1991}";
 			sepNavWindowFrame = "{{38, 130}, {988, 902}}";
 		};
 	};
@@ -571,9 +1443,9 @@
 	};
 	CB7D361511B37DD300F52E2E /* cpShape.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {929, 2249}}";
-			sepNavSelRange = "{1255, 68}";
-			sepNavVisRange = "{495, 1984}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 2236}}";
+			sepNavSelRange = "{2315, 6}";
+			sepNavVisRange = "{1255, 1684}";
 			sepNavWindowFrame = "{{61, 109}, {988, 902}}";
 		};
 	};
@@ -729,13 +1601,18 @@
 		name = CGGeometry.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 3848}}";
+			sepNavSelRange = "{8279, 34}";
+			sepNavVisRange = "{7353, 1739}";
+		};
 	};
 	CB88BD5411B7F5C600AF4385 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* ChipmunkTutorialViewController.h */;
 		name = "ChipmunkTutorialViewController.h: 23";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 732;
 		vrLoc = 0;
@@ -745,7 +1622,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
 		name = "ChipmunkTutorialViewController.m: 131";
 		rLen = 0;
-		rLoc = 4163;
+		rLoc = 7951;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 3117;
@@ -755,7 +1632,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ChipmunkTutorialViewController.m */;
 		name = "ChipmunkTutorialViewController.m: 121";
 		rLen = 0;
-		rLoc = 3551;
+		rLoc = 7343;
 		rType = 0;
 		vrLen = 1958;
 		vrLoc = 2008;

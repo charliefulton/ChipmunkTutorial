@@ -10,7 +10,8 @@
 
 @class ChipmunkTutorialViewController;
 
-@interface ChipmunkTutorialAppDelegate : NSObject <UIApplicationDelegate> {
+@interface ChipmunkTutorialAppDelegate : NSObject <UIApplicationDelegate> 
+{
     UIWindow *window;
     ChipmunkTutorialViewController *viewController;
 }

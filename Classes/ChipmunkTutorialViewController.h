@@ -15,14 +15,22 @@
 	UIImageView* ball; //Holds our ball image
 	
 	cpSpace* space; // Holds our space object
+	
+	//===
+    // Device Width & Height
+    //===
+    CGFloat width;
+    CGFloat height;
 }
 
 - (void) setupChipmunk; // Bootstraps chipmunk and the timer
 - (void) tick: (NSTimer *) timer; // Fires at "frame"
 
-// guess this is a c function no - in front!
 void updateShape (void *ptr, void* unused);
-//- (void) updateShape(void *ptr, void* unused); // Updates a shapes visual representation (i.e. sprite)
+
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+
 
 @end
 

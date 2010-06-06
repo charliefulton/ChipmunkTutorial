@@ -11,8 +11,13 @@
 #import "ChipmunkTutorialViewController.h"
 #import "chipmunk.h"
 
+
+
+
 @implementation ChipmunkTutorialViewController
 
+@synthesize width;
+@synthesize height;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -35,14 +40,25 @@
 {
     [super viewDidLoad];
 	
-	//TODO get the size dynamically
+
+    //===
+    // We want to grab the main screen width & height. 
+    // iPad:   H = 1024 and W = 768.
+    // iPod:   H =  480 and W = 320.
+    // iPhone  H =  480 and W = 320.
+    //=== 
+    CGSize s = [[UIScreen mainScreen] bounds].size;
+    self.width  = s.width;
+    self.height = s.height;
+	
+	NSLog(@"width == %f", self.width);
+	NSLog(@"height == %f", self.height);
 	
 	floor = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"floor.png"]];
-	
-	floor.center = CGPointMake(350, 350);
+	floor.center = CGPointMake(160, 350);
 	
 	ball =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.png"]];
-	ball.center = CGPointMake(350,230);
+	ball.center = CGPointMake(160, 230);
 	
 	[self.view addSubview:floor];
 	[self.view addSubview:ball];
@@ -84,14 +100,14 @@
 	cpBody* ballBody = cpBodyNew(100.0, INFINITY);
 	
 	// set the initial position
-	ballBody->p = cpv(350,250);
+	ballBody->p = cpv(60,200);
 	
 	// now add the body to the space
 	cpSpaceAddBody(space, ballBody);
 	
 	// now define shape for the body
 	
-	cpShape* ballShape = cpCircleShapeNew(ballBody, 20.0, cpvzero);
+	cpShape *ballShape = cpCircleShapeNew(ballBody, 20.0, cpvzero);
 	
 	ballShape->e = 0.5; //Elasticity
 	ballShape->u = 0.8; //Friction
@@ -101,6 +117,55 @@
 	// add the shape to the space
 	cpSpaceAddShape(space, ballShape);
 	
+	
+	
+	// Create our floor's body and set it's position
+	cpBody *floorBody = cpBodyNew(INFINITY, INFINITY);
+	floorBody->p = cpv(160, 480-350);
+	
+	// Define our shape's vertexes
+	cpVect verts1[] = { cpv(0.0, 0.0), cpv(50.0, 0.0), cpv(45.0, -15.0), cpv(0.0, -15.0) };
+	
+	cpVect verts2[] = {	cpv(50.0, 0.0), cpv(116.0, -66.0), cpv(110.0, -81.0), cpv(45.0, -15.0) };
+	
+	cpVect verts3[] = { cpv(116.0, -66.0), cpv(204.0, -66.0), cpv(210.0, -81.0), cpv(110.0, -81.0) };
+	
+	cpVect verts4[] = { cpv(204.0, -66.0), cpv(270.0, 0.0), cpv(275.0, -15.0), cpv(210.0, -81.0) };
+	
+	cpVect verts5[] = { cpv(270.0, 0.0), cpv(320.0, 0.0), cpv(320.0, -15.0), cpv(275.0, -15.0) };
+	
+	// Create all shapes
+	cpShape *floorShape = cpPolyShapeNew(floorBody, 4, verts1, cpv(-320.0f / 2, 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.5; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts2, cpv(-320.0f / 2, 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.5; floorShape->collision_type = 0;
+	floorShape->data = floor;	
+	cpSpaceAddStaticShape(space, floorShape);
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts3, cpv(-320.0f / 2, 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.5; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts4, cpv(-320.0f / 2, 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.5; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts5, cpv(-320.0f / 2, 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.5; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+
+	
+	
+	
+	
+	
+	/*
 	// -- Floor object setup --//
 	
 	// we now need to setup the floor. 
@@ -109,17 +174,88 @@
 	
 	// create the floor object
 	cpBody* floorBody = cpBodyNew(INFINITY, INFINITY);
-	floorBody->p = cpv(160, 480-350);
+	floorBody->p = cpv(160, 350);
 	
-	cpVect verts1[] = { cpv(0.0, 0.0), cpv(50.0, 0.0), cpv(45.0, -15.0), cpv(0.0, -15.0)};
-	cpVect verts2[] = { cpv(50.0, 0.0), cpv(116.0, -66.0), cpv(110.0, -81.0), cpv(45.0, -15.0)};
-	cpVect verts3[] = { cpv(116.0, -66.0), cpv(204.0, -66.0), cpv(210.0, -81.0), cpv(110.0, -81.0)};
-	cpVect verts4[] = { cpv(204.0, -66.0), cpv(270.0, 0.0), cpv(275.0, -15.0), cpv(210.0, -81.0)};
-	cpVect verts5[] = { cpv(270.0, 0.0), cpv(320.0, 0.0), cpv(320.0, -15.0), cpv(275.0, -15.0)};
+	// from vertexhelper tool...
+	// a poly shape for our floor image
 	
 	
+	//row 1, col 1
+	int num1 = 4;
+	// top right of bowl
+	CGPoint verts1[] = {
+		cpv(112.0f, 40.5f),
+		cpv(158.0f, 39.5f),
+		cpv(158.0f, 26.5f),
+		cpv(116.0f, 24.5f)
+	};
 	
+	//row 1, col 1
+	//right wall
+	int num2 = 4;
+	CGPoint verts2[] = {
+		cpv(116.0f, 25.5f),
+		cpv(51.0f, -38.5f),
+		cpv(46.0f, -26.5f),
+		cpv(109.0f, 38.5f)
+	};
 	
+	//row 1, col 1
+	//bottom
+	int num3 = 4;
+	CGPoint verts3[] = {
+		cpv(49.0f, -39.5f),
+		cpv(-53.0f, -38.5f),
+		cpv(-45.0f, -26.5f),
+		cpv(43.0f, -24.5f)
+	};
+	
+	//row 1, col 1
+	//left wall
+	int num4 = 4;
+	CGPoint verts4[] = {
+		cpv(-53.0f, -37.5f),
+		cpv(-115.0f, 25.5f),
+		cpv(-110.0f, 38.5f),
+		cpv(-45.0f, -24.5f)
+	};
+	
+	//top left
+	//row 1, col 1
+	int num5 = 4;
+	CGPoint verts5[] = {
+		cpv(-119.0f, 26.5f),
+		cpv(-159.0f, 26.5f),
+		cpv(-159.0f, 39.5f),
+		cpv(-111.0f, 40.5f)
+	};
+	
+	// Create all shapes
+	cpShape *floorShape = cpPolyShapeNew(floorBody, 4, verts1, cpv(0.0, 0.0));
+	floorShape->e = 0.5; floorShape->u = 0.1; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);	
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts2, cpv(-(width / 2), 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.1; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts3, cpv(-(width / 2), 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.1; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts4, cpv(-(width / 2), 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.1; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+	
+	floorShape = cpPolyShapeNew(floorBody, 4, verts5, cpv(-(width / 2), 81.0f / 2));
+	floorShape->e = 0.5; floorShape->u = 0.1; floorShape->collision_type = 0;
+	floorShape->data = floor;
+	cpSpaceAddStaticShape(space, floorShape);
+	*/
 	
 }
 
@@ -154,10 +290,10 @@
 }
 
 
-void updateShape(void* ptr, void* unused)
+void updateShape(void *ptr, void* unused)
 {
 	// get our shape
-	cpShape* shape = (cpShape*) ptr;
+	cpShape *shape = (cpShape*) ptr;
 	
 	// make sure everything is as expected or exit
 	if (shape == nil || shape->body == nil || shape->data == nil) 
@@ -168,8 +304,10 @@ void updateShape(void* ptr, void* unused)
 	// Check if the object is an UIView of any kind and update position
 	if ([shape->data isKindOfClass:[UIView class]])
 	{
+		// getting some strange glitching in the simulator
+		//NSLog(@"updateShape: shape's body x = %d y = %d",shape->body->p.x,shape->body->p.y);
 	
-		[(UIView *)shape->data setCenter:CGPointMake(shape->body->p.x, 200 - shape->body->p.y)];
+		[(UIView *)shape->data setCenter:CGPointMake(shape->body->p.x, 480 - shape->body->p.y)];
 		
 	}
 	else
